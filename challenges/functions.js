@@ -19,11 +19,11 @@ const add = function (a, b) {
   return a + b;
 }
 
-const multiply = function (a,b) {
+const multiply = function (a, b) {
   return a * b;
 }
 
-const greeting = function (a,b){
+const greeting = function (a, b) {
   return "Hello Mary Poppins, nice to meet you!"
 }
 
@@ -37,7 +37,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
- 
+
 // Explanation: 'nestedFunction' is nested within 'myFunction', therfore it has access to anyting outside of it, in this case myFunction is the parent function.
 
 
